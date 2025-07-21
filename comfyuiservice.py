@@ -9,9 +9,10 @@ import uuid
 import json
 import urllib.request
 import urllib.parse
+from config import SAVE_IMAGE_WEBSOCKET, SERVER_ADDERESS
 
-save_image_websocket = 'SaveImageWebsocket'
-server_address = "127.0.0.1:8188"
+save_image_websocket = SAVE_IMAGE_WEBSOCKET
+server_address = SERVER_ADDERESS
 client_id = str(uuid.uuid4())
 
 
